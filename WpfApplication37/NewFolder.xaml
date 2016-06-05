@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApplication37.NewFolder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NewFolder" Height="194.029" Width="300" ResizeMode="NoResize">
+    <Grid>
+        <Button Content="Create Folder" HorizontalAlignment="Left" Margin="26,102,0,0" VerticalAlignment="Top" Width="91" Height="41" Click="ButtonCreate_Click" IsDefault="True"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="169,102,0,0" VerticalAlignment="Top" Width="91" Height="41" Click="Button_Click" IsCancel="True"/>
+        <Label Content="Enter the name of the new folder" HorizontalAlignment="Left" Margin="54,10,0,0" VerticalAlignment="Top"/>
+        <TextBox Name ="folder_name" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="New Folder" VerticalAlignment="Top" Width="120" Margin="82,57,0,0"/>
+        <Label Name="label_path" Content="Label" HorizontalAlignment="Left" Margin="126,31,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
